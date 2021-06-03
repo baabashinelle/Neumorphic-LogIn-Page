@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+body {
+	background-color: #fafbfc;
+	margin: 0;
+	display :flex;
+	text-align: center;
+	justify-content: center;
+	overflow :hidden;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.block {
+	box-sizing: border-box;
+	height: 590px;
+	width: 450px;
+	background-color: #fafbfc;
+	box-shadow: 12px 12px 20px #cbced1, -12px -12px 20px white;
+	border-radius: 30px;
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
+
+	background: url("instagram.png") no-repeat;
+	margin: auto;
+	margin-top: 26px;	
+}
+
+.title {
+	background: -webkit-linear-gradient(45deg,#833ab4,#c13584,#E1306C,#405de6,#5851db,#fd1d1d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Noto Serif' , serif;
+	font-size: 35px;
+}
+ .inputs {
+ 	text-align: left;
+ 	margin-top: 30px;
+ 	padding: 15px;	
+ }
+
+ label, input, button {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+      }
+
+label {
+    margin-bottom: 4px;
+    margin-left: 10px;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+  input::placeholder {
+    color: gray;
+  }
+  
+  input {
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
+  
+  button {    width: 273px;
+    margin: auto;
+    margin-top: 33px;
+    background: #d95bbb;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    
+  }
+  
+  button:hover {
+    box-shadow: none;
+  }
+
+
+
